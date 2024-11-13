@@ -1,4 +1,32 @@
 .shortcut{
+    background-color: #333333;
+}
+.shortcut .wrapper{
+    /* background-color: pink; */
+
     height: 52px;
-    background-color: pink;
+}
+
+.shortcut ul{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 52px;
+}
+
+.shortcut  li a{
+    padding:0 15px;
+    border-right: 1px solid #FFFFFF ;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.shortcut ul li:last-child a{
+    border-right: 0;
+}
+.shortcut .iconfont{
+    margin-right: 4px;
+    vertical-align: middle;
+}
+.shortcut .login{
+    color: #5EB69C;
 }
