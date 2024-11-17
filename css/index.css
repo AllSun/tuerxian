@@ -1,3 +1,4 @@
+/* 快捷导航 */
 .shortcut{
     background-color: #333333;
 }
@@ -30,3 +31,97 @@
 .shortcut .login{
     color: #5EB69C;
 }
+
+/* 头部导航 */
+.header  {
+    display:flex;
+    align-items: center;
+    height: 88px;
+    margin:22px auto;
+    /* background-color:pink; */
+    
+}
+
+.header .logo{
+    width: 200px;
+    height: 88px;
+    background-image: url(../images/logo.png);
+}
+
+.header .nav ul{
+    display:flex;
+    height: 88px;
+    align-items: center;
+   
+}
+.header .nav ul li{
+    padding-left:48px;
+}
+
+.header .nav ul a{
+    display: block;
+    width: 32px;
+    height: 22px;
+    padding-bottom: 40px;
+}
+
+.header .nav ul a:hover{
+    display: block;
+    border-bottom: 2px solid #5EB69C; 
+    color: #5EB69C;
+}
+
+.header .search {
+    display: flex;
+    align-items: center;
+    margin-left: 75px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F4F4F4;
+}
+.header .search input{
+    height: 22px;
+}
+
+.header .search input::placeholder{
+    padding-left: 8px;
+    font-size: 16px;
+    color: #CCCCCC;
+}
+
+.header .search .icon-search{
+    font-size: 20px;
+    color: #CCCCCC;
+}
+
+.header .cart {
+    position: relative;
+    margin-left: 30px;
+}
+
+.header .cart .icon-cart-full{
+    font-size: 30px;
+}
+
+.header .cart p{
+    position:absolute;
+    left:15px;
+    top:5px;
+    height: 15px;
+    padding: 0 6px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 15px;
+    background-color: #E26237;
+    border-radius: 8px;
+}
+
+ /* banner */
+ .banner {
+    height: 500px;
+    background-color: #F5F5F5;
+ }
+
+ .banner .wrapper{
+    height: 100%;
+    background-color: pink;
+ }
