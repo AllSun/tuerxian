@@ -125,3 +125,57 @@
     height: 100%;
     background-color: pink;
  }
+
+
+ /* footer */
+ .footer{
+    height: 582px;
+    background-color:#F5F5F5;
+ }
+
+ .footer .service{
+    height: 178px;
+    padding: 60px 0;
+ }
+
+ .service ul{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+ .service ul li{
+    display: flex;
+    height: 58px;
+    width: 190px;
+    align-items: center;
+ }
+ .service ul li h5{
+    width: 58px;
+    height: 58px;
+    background-image: url(../images/sprite.png);
+ }
+
+ .service ul li:nth-child(2) h5{
+    background-position: 0 -58px;
+ }
+
+ .service ul li:nth-child(3) h5{
+    background-position: 0 -116px;
+ }
+
+ .service ul li:nth-child(4) h5{
+    background-position: 0 -174px;
+ }
+ .service ul li p{
+    margin-left: 20px;
+    font-size: 28px;
+    color:#333333 ;
+ }
+
+ .footer .help{
+    height: 212px;
+ }
+
+ .foot .copyright{
+    height: 190px;
+ }
