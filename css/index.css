@@ -122,10 +122,48 @@
  }
 
  .banner .wrapper{
+    display: flex;
     height: 100%;
-    background-color: pink;
+    /* background-color: pink; */
  }
 
+
+ .banner .left li{
+    position: relative;
+    display: block;
+    width: 250px;
+    height: 50px;
+    padding: 14px 29px 0;
+    line-height: 16px;
+
+    background-color:#333333;
+    opacity: 0.42;   
+ }
+ .banner .left li p{
+    display: inline-block;
+    font-size: 16px;
+    color:#FFFFFF;
+ }
+
+ .banner .left li span{
+    font-size: 14px;
+    margin-left: 14px;
+    line-height: 14px;
+    color:#FFFFFF;
+ }
+
+ .banner .left li .iconfont{
+    position: absolute;
+    display: inline-block;
+    width: 5.5px;
+    height: 10px;
+    right:12px;
+    color:#FFFFFF;
+ }
+
+.banner .right a{
+    background-image: url("../uploads/banner1.png") ;
+}
 
  /* footer */
  .footer{
