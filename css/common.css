@@ -4,3 +4,70 @@
     margin: 0 auto;
     width: 1240px;
 }
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    align-items: baseline;
+}
+
+.title .left{
+    display: flex;
+    align-items: baseline;
+}
+.title .left h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.title .left p {
+    font-size: 16px;
+    color: #A1A1A1;
+    font-weight: 400;
+    margin-left: 35px;
+}
+
+.title .right {
+    color: #A1A1A1 ;
+    font-size: 16px;
+}
+.title .right .icon-arrow-right-bold{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+
+.card ul{
+    display: flex;
+    justify-content: space-between;
+}
+.card .pic{
+    width: 304px;
+    height: 304px;
+}
+
+.card .desc{
+    width: 304px;
+    height: 100px;
+    padding-top: 17px;
+    background-color: #EEF9F4;
+    text-align: center;
+}
+
+.card .desc p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.card .desc span{
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    color: #AA2113;
+}
+
+.card .desc i{
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 18px;
+}

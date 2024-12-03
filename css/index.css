@@ -161,9 +161,64 @@
     color:#FFFFFF;
  }
 
-.banner .right a{
-    background-image: url("../uploads/banner1.png") ;
+ .banner .left li:hover{
+    background-color: #00BE9A;
+    opacity: 1;
+ }
+
+ .banner .right {
+    position: relative;
+ }
+
+.banner .right ul{
+    display: flex;
+    position: absolute;
+    bottom: 21px;
+    right:20px;
+
 }
+
+.banner .right ul li{
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background-color: rgba(255,255,255,0.50); */
+    
+}
+
+.banner .right ul i{
+    display: block;
+    /* 让图片居中 */
+    margin: 4px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.50);
+}
+
+.banner .right ul li:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+.banner .right ul li:hover i{
+    background-color: rgba(255,255,255,1);
+}
+
+.banner .right a{
+    display: block;
+    width: 990px;
+    height: 500px;
+    background-image: url("../uploads/banner1.png");
+}
+
+/* goods */
+.goods{
+    height: 476px;
+    /* background-color: pink; */
+}
+
+
 
  /* footer */
  .footer{
