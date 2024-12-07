@@ -71,3 +71,98 @@
     margin-right: 5px;
     font-size: 18px;
 }
+
+.showcard{
+    height: 610px;
+    display: flex;
+}
+.showcard .left{
+    width: 248px;
+    margin-right: 24px;
+}
+
+.showcard .right {
+    width: 968px;
+    height: 610px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.showcard .right .smallcard{
+    width: 240px;
+    height: 305px;
+    padding: 14.5px 21px 10px  21px;
+}
+.showcard .right .smallcard img{
+    width: 197px;
+    height: 169px;
+    margin-bottom: 14.5px;
+}
+.showcard .right .smallcard p{
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+.showcard .right .smallcard span{
+    
+    font-size: 22px;
+    color: #AF2F22;
+}
+.showcard .right .smallcard i{
+    margin-right:5px;
+    font-size: 16px;
+}
+
+.fresh .showcard .smallcard{
+    position: relative;
+}
+
+.home .showcard .smallcard{
+    position: relative;
+}
+
+.showcard .right .smallcard .cover{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 242px;
+    height: 84px;
+    background-color: #00BE9A;
+    opacity: 0;
+}
+
+.showcard .right a:hover{
+    border: 2px solid #00BE9A;
+}
+
+.showcard .right a:hover .cover{ 
+   opacity: 1;
+}
+
+.showcard .right .cover p{
+    color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+.showcard .right .cover p:first-child{
+    width: 120px;
+    margin-top: 15px;
+    padding-bottom: 3px;
+    border-bottom:2px solid rgba(255,255,255,0.11);;
+    font-size: 18px;
+    
+}
+
+.showcard .right .cover p:last-child{
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.showcard .right .cover p:last-child .icon-arrow-right-bold{
+    color: #FFFFFF;
+    font-size: 13px;
+}

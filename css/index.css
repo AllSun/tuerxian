@@ -214,11 +214,174 @@
 
 /* goods */
 .goods{
-    height: 476px;
+    height: 479px;
+    /* background-color: pink; */
+}
+
+/* 人气推荐 */
+.recommend{
+    height: 479px;
+    /* background-color: pink; */
+}
+.recommend .card .desc{
+    background-color: #FFFFFF;
+}
+.recommend .card .desc span{
+    color:#A1A1A1;
+    font-size: 16px;
+}
+
+/* 热门品牌 */
+.hot{
+    height: 470px;
+    background-color: #F5F5F5;
+    overflow: hidden;
+}
+
+.hot .title{
+    margin-top: 40px;
+}
+
+.hot .card .pic{
+    width: 244px;
+    height: 306px;
+}
+
+
+/* 生鲜 */
+.fresh{
+ 
+    height: 712px;
     /* background-color: pink; */
 }
 
 
+.fresh .title .right ul{
+    display: flex;
+}
+
+.fresh .title .right li{
+    margin-left: 20px;
+}
+
+.fresh .title a{
+    margin:1px 7px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.fresh .title li:nth-child(-n+7):hover{
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #00BE9A;
+}
+.fresh .title li:last-child {
+    margin-left: 65px;
+}
+.fresh .title li:last-child a{
+    color:#A1A1A1;
+}
+
+/* 居家 */
+.home{
+ 
+    height: 712px;
+    /* background-color: pink; */
+}
+
+
+.home .title .right ul{
+    display: flex;
+}
+
+.home .title .right li{
+    margin-left: 20px;
+}
+
+.home .title a{
+    margin:1px 7px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.home .title li:nth-child(-n+7):hover{
+    width: 46px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #00BE9A;
+}
+.home .title li:last-child {
+    margin-left: 65px;
+}
+.home .title li:last-child a{
+    color:#A1A1A1;
+}
+
+/* 最新专题 */
+.topic{
+    height: 475px;
+    /* background-color: pink; */
+}
+
+.topic ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topic ul li{
+    width: 405px;
+    height: 355px;
+}
+.topic ul li .pic{
+    position: relative;
+    width: 405px;
+    height: 288px;
+    background-image: url("../uploads/topic1.png");
+    overflow: hidden;
+}
+
+.topic ul li h3{
+    font-size: 20px;
+    margin-top: 218px;
+    margin-left: 15px;
+    color: #FFFFFF;
+}
+
+.topic ul li p{
+    margin-top: 6px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.topic ul li i{
+    display: inline-block;
+    position: absolute;
+    bottom: 30px;
+    right:25px;
+    width: 79px;
+    height: 25px;
+    color: #AA2113;
+    text-align: center;
+    font-size: 18px;
+    background-color:  #FFFFFF;
+}
+
+.topic ul li span{
+    display: inline-block;
+    margin-top: 23px;
+    margin-left: 15px;
+    font-size: 16px;
+    color: #666666 ;
+   
+}
+
+.topic ul li span:last-child{
+    margin-left: 220px;
+}
 
  /* footer */
  .footer{
